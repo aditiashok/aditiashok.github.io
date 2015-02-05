@@ -7,4 +7,4 @@ everything has been correctly implemented.
 
 Collaborators: 
 
-Hours Spent:# aditiashok.github.io
+Hours Spent: I have spent 5 hours on this project
