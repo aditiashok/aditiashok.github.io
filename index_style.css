@@ -1,0 +1,33 @@
+html * {
+	background: LightGray;
+}
+
+h1 {
+	color: black;
+	font-family: Century Gothic, sans-serif;
+	letter-spacing: 4px;
+	font-size: 50px;
+	font-style:bold;
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+h2 {
+	color: black;
+	/*font-family: Century Gothic,sans-serif; */
+	font-family: Bush Script MT, cursive;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+
+p {
+	color: black;
+	font-family: Century Gothic, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 125px;
+	margin-bottom:100px;
+	margin-right: 150px;
+}
