@@ -14,7 +14,6 @@ h1 {
 
 h2 {
 	color: black;
-	/*font-family: Century Gothic,sans-serif; */
 	font-family: Bush Script MT, cursive;
 	font-size: 24px;
 	text-align: center;
@@ -31,3 +30,13 @@ p {
 	margin-bottom:5%;
 	margin-right: 10%;
 }
+
+img {
+	float:left;
+	margin-left:10%;
+	margin-right:5%;
+	margin-top:3%;
+	width:25%;
+	height:25%;
+}
+
