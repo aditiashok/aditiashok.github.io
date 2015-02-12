@@ -10,4 +10,3 @@ Discussed Assignment With: Sylvie Abookire
 Hours Spent: I have spent ~6 hours on this project
 
 
-# aditiashok.github.io
