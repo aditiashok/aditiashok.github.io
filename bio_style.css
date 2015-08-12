@@ -1,10 +1,6 @@
-html * {
-	background: LightGray;
-}
-
 h1 {
 	color: black;
-	font-family: Century Gothic, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: 4px;
 	font-size: 50px;
 	font-weight:bold;
@@ -14,11 +10,22 @@ h1 {
 
 p {
 	color: black;
-	font-family: Century Gothic, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom:10%;
 	margin-right: 10%;
 	margin-left: 10%;
+}
+
+#top_image {
+		position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/about_collage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
