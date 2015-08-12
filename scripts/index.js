@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).load(function() {
 				$('#slideshow').cycle({
 				fx: 'fade',
 				pager: '#smallnav',
