@@ -5,24 +5,57 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 
 		<title> About Me </title>
+		<!--Smooth Scroll-->
+			<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+			</script>
+
 	</head>
 	<body>
 
-		<div id="top_image">
-		</div>
+<div id = "header">
+		 <br>
+		 <br>
+	 </div>
+	 <br>
 
+<h1>
+	<a href="#aboutme">
+	 Hi, I'm Aditi
+ </a>
+</h1>
 
-	<h1> About Me </h1>
+	<h2> About Me </h2>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 
-	<p> Senior at Tufts University interested in computer science, psychology, philosophy, and neuroscience, and hoping to explore the interface between the human mind and computer technology.
-		Pursuing a Computer Science major with a minor in Cognitive and Brain Sciences.
-		Exploring career options in product management, software development, and human-computer interaction.
+	<section id="aboutme">
+	<p> I'm currently a senior at Tufts University, hoping to explore the interface between the human mind and computer technology.
+		 I am very interested in design and care deeply about product aesthetics.
+		 Currently, I am pursuing a Computer Science major with a minor in Cognitive and Brain Sciencem, and
+		 exploring career options in product management and human-computer interaction.
 	<br>
 	<br>
 
 	If you are interested in working with me, please shoot me an email at
 	<a href="mailto:aditi.ashok@tufts.edu"> aditi.ashok@tufts.edu </a></p>
-
+</section>
 	</body>
 
 </html>

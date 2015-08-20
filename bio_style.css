@@ -1,17 +1,26 @@
+html * {
+	background: #000000;
+}
+
 h1 {
-	color: black;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: 4px;
-	font-size: 50px;
-	font-weight:bold;
+	color: white;
 	text-align: center;
-	margin-bottom: 3px;
+	font-family: 'Raleway', sans-serif;
+	background-size: 100% 100%;
+	font-size: 100px;
+}
+
+#header {
+	background: url(images/about_collage.jpg);
+	background-size: 100% 100%;
+	line-height: 10;
+	margin-top:0%;
 }
 
 p {
-	color: black;
+	color: white;
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
+	font-size: 25px;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom:10%;
@@ -19,13 +28,12 @@ p {
 	margin-left: 10%;
 }
 
+/*
 #top_image {
-	position: relative;
-    top: 0;
+    position:absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    background-image: url("images/about_collage.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+    height:60px;
+		image
+    background-size:100%;
+} */
