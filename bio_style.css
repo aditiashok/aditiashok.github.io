@@ -27,13 +27,14 @@ p {
 	margin-right: 10%;
 	margin-left: 10%;
 }
+a:link {
+    color: #FFFFFF;
+}
 
-/*
-#top_image {
-    position:absolute;
-    left: 0;
-    right: 0;
-    height:60px;
-		image
-    background-size:100%;
-} */
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #C0C0C0;
+}
