@@ -3,9 +3,9 @@ html * {
 }
 
 h1 {
-	height: 50vh;
+	height: 60vh;
 	font-size: 55px;
-	padding-top: 0vh;
+	padding-top: 10vh;
 	padding-left: 80px;
 	text-align: center;
 	letter-spacing: 10px;
@@ -26,7 +26,7 @@ h1 {
 p {
 	height: 100vh;
 	font-size: 55px;
-	padding-top: 40vh;
+	padding-top: 35vh;
 	text-align: center;
 
 	color: black;
