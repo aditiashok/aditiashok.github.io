@@ -4,27 +4,16 @@ h1 {
 	font-size: 50px;
 	font-weight:bold;
 	text-align: center;
-
-	margin-top: 55%;
 }
 
-#sidebar {
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    width: 250px;
-    height:100%;
-		background-color: rgba(0,0,0,0.7);
+.sideBar {
+	background-color: rgba(0,0,0,0.7);
 }
 
 p {
 	color: white;
-	font-family:'Raleway', sans-serif;
 	font-size: 24px;
 	text-align: center;
-
-
 }
 
 #photobuttons {
@@ -35,13 +24,6 @@ p {
 	left: 10%;
 
 }
-
-#navlist li {
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-}
-
 
 #wrap {
 	background-color: rgba(0,0,0,0.7);
