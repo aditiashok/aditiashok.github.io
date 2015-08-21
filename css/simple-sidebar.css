@@ -59,6 +59,7 @@
     list-style: none;
     font-size: 30px;
     text-align: center;
+    font-weight: lighter;
 }
 
 .sidebar-nav li {
