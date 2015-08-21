@@ -1,5 +1,5 @@
 html * {
-	background: #000000;
+	background-color: #000000;
 }
 
 h1 {
@@ -21,6 +21,11 @@ h1 {
 	background-size: 100% 100%;
 	line-height: 10;
 	margin-top:0%;
+	margin-left: 0%;
+}
+
+#arrow {
+	align-content: center;
 }
 
 p {
@@ -32,7 +37,8 @@ p {
 	color: black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	background-color: white;
+	background: white;
+	padding-bottom: 20px;
 }
 
 a:link {
@@ -45,4 +51,8 @@ a:visited {
 
 a:hover {
     color: #C0C0C0;
+}
+
+#home {
+	color:blue;
 }

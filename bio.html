@@ -22,20 +22,29 @@
 			    }
 			  });
 			});
+
+			var offset = 300,
+	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+	offset_opacity = 1200,
+	//duration of the top scrolling animation (in ms)
+	scroll_top_duration = 700;
 			</script>
 
 	</head>
 	<body>
 
+<section id = "top">
 <div id = "header">
 		 <br>
 		 <br>
 	 </div>
+	 <section>
+
 	 <br>
 
 <h1>
 	<a href="#aboutme" style="text-decoration:none">
-	 Hi, I'm Aditi
+	 Hi, I'm Aditi.
  </a>
 </h1>
 
@@ -48,8 +57,17 @@
 	<br>
 
 	If you are interested in working with me, please shoot me an email at
-	<a href="mailto:aditi.ashok@tufts.edu"> aditi.ashok@tufts.edu </a></p>
+	<a href="mailto:aditi.ashok@tufts.edu" style="background:white;color:black"> aditi.ashok@tufts.edu </a> <br>
+	<!-- <div id = "arrow">
+	<img src = "images/arrow.svg"> </div> -->
+</p>
+
 </section>
-	</body>
+
+<div id = "home">
+<a href = "index.html"> Home </a> </div>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow13.js"></script>
+
+</body>
 
 </html>
