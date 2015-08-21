@@ -28,6 +28,15 @@ p {
 
 }
 
+#photobuttons {
+	text-align: center;
+	color:white;
+	top:80%;
+	bottom:5%;
+	left: 10%;
+
+}
+
 #navlist li {
 	display: inline;
 	list-style-type: none;

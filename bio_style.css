@@ -3,10 +3,9 @@ html * {
 }
 
 h1 {
-	height: 60vh;
+	height: 50vh;
 	font-size: 55px;
-	padding-top: 10vh;
-	padding-left: 80px;
+	padding-top: 0vh;
 	text-align: center;
 	letter-spacing: 10px;
 
@@ -22,6 +21,13 @@ h1 {
 	line-height: 10;
 	margin-top:0%;
 	margin-left: 0%;
+
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	background-size: 100% 100%;
+	font-size: 40px;
+	text-align: center;
+
 }
 
 #arrow {
@@ -33,7 +39,7 @@ p {
 	font-size: 55px;
 	padding-top: 35vh;
 	text-align: center;
-
+		
 	color: black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
